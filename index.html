@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AAA Threads Downloader - For Download Video, Photo, Profile</title>
+    <meta name="description"
+        content="Instagram Threads Video, Photo, and Profile Pic Downloader by AAA Threads Downloader - Download High-Quality Threads Media in Just 2 Click." />
+    <meta name="keywords" content="Threads downloader, threads video downloader, threads photo downloader" />
+    <link rel="icon" type="image/x-icon" href="images/aaa-threads-downloader.jpg" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link rel="canonical" href="https://downloader.aaaenos.com/threads-downloader/" />
+    <!--CDN's-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://downloader.aaaenos.com/threads-downloader/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AAA Threads Downloader - For Download Video, Photo, Profile">
+    <meta property="og:description"
+        content="Instagram Threads Video, Photo, and Profile Pic Downloader by AAA Threads Downloader - Download High-Quality Threads Media in Just 2 Click.">
+    <meta property="og:image"
+        content="https://downloader.aaaenos.com/threads-downloader/images/aaa-threads-downloader.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="downloader.aaaenos.com">
+    <meta property="twitter:url" content="https://downloader.aaaenos.com/threads-downloader/">
+    <meta name="twitter:title" content="AAA Threads Downloader - For Download Video, Photo, Profile">
+    <meta name="twitter:description"
+        content="Instagram Threads Video, Photo, and Profile Pic Downloader by AAA Threads Downloader - Download High-Quality Threads Media in Just 2 Click.">
+    <meta name="twitter:image"
+        content="https://downloader.aaaenos.com/threads-downloader/images/aaa-threads-downloader.jpg">
+
+    <!--Google Analytics code-->
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRBZENQ7GD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FRBZENQ7GD');
+    </script> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navcontainer">
+                <div class="nav_parent">
+                    <div class="nav_child">
+                        <strong class="logo_link">AAAENOS</strong>
+                    </div>
+                    <div class="nav_child nav_links_desk">
+                        <div class="humburg_container">
+                            <span><i class="bi bi-list"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile_nav_links">
+                    <span><a href="https://downloader.aaaenos.com/threads-downloader/">Home</a></span>
+                    <span><a href="https://www.aaaenos.com/en/">Blog</a></span>
+                    <span><a href="https://www.aaaenos.com/tools/">Tools</a></span>
+                    <span><a href="https://www.aaaenos.com/en/contact-us/">Contact</a></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- paste link input area  -->
+    <div class="input_area">
+        <div class="input_parent">
+            <form method="post" id="download_threads_media_frm">
+                <div class="heading_and_short_para">
+                    <h1 class="heading_txt">AAA Threads Downloader</h1>
+                    <p class="short_para">Download threads video, photo, and profile: copy the link from threads and
+                        paste it.</p>
+                    <p class="mobile_short_para">Download threads video, photo, and profile.</p>
+                    <div class="media_type">
+                        <label class="media_type_lbl">
+                            <input class="media_type_inp_cls" type="radio" name="media_type_inp_nm" value="postvideo"
+                                hidden checked />
+                            <div class="label_inside">
+                                <i class="bi bi-file-earmark-play"></i>
+                                <span>Video</span>
+                            </div>
+                        </label>
+
+                        <label class="media_type_lbl">
+                            <input class="media_type_inp_cls" name="media_type_inp_nm" value="profiledp" type="radio"
+                                hidden />
+                            <div class="label_inside">
+                                <i class="bi bi-person-circle"></i>
+                                <span>Profile</span>
+                            </div>
+                        </label>
+
+                        <label class="media_type_lbl">
+                            <input class="media_type_inp_cls" name="media_type_inp_nm" value="postphoto" type="radio"
+                                hidden />
+                            <div class="label_inside">
+                                <i class="bi bi-file-image"></i>
+                                <span>Photo</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="input_fields_area_parent">
+                        <div class="input_field_txt">
+                            <input class="input_field_cls" type="text" minlength="5" maxlength="200"
+                                placeholder="Paste Video Link Here" required />
+                            <button class="dnd_button">Download</button>
+                        </div>
+                        <div class="input_near_error need_padding"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="animation_parent_bxes">
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+            <div class="have_a_question_animation"></div>
+        </div>
+    </div>
+
+    <!-- fetched video here  -->
+    <div class="fetched_media_container"></div>
+
+
+    <!-- learn how to download  -->
+    <div class="how_to_download_container">
+        <div class="documention_for_download_parent">
+            <div class="header">
+                <div class="texts">
+                    <h2 class="heading_txt">How to download threads media?</h2>
+                </div>
+                <div class="hide_show">
+                    <span class="navigation_span_container"><i class="bi bi-chevron-down"></i></span>
+                </div>
+            </div>
+            <div class="content show">
+                <div class="img_parent">
+                    <div class="img_child">
+                        <span>Step 1: Click on send</span>
+                        <img src="images/threads-video-downloader-example.webp" alt="threads downloader" />
+                    </div>
+
+                    <div class="img_child">
+                        <span>Step 2: Copy link</span>
+                        <img src="images/threads-post-copy-link.webp" alt="threads downloader" />
+                    </div>
+
+                    <div class="img_child">
+                        <span>Step 3: Paste and download</span>
+                        <img src="images/threads-video-downloader-example.webp" alt="threads downloader" />
+                    </div>
+
+                    <div class="img_child">
+                        <span>Step 4: Save and download</span>
+                        <img src="images/threads-video-downloader-example.webp" alt="threads downloader" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer_parent">
+            <div class="footer_child">
+                <strong>AAAENOS</strong>
+            </div>
+            <div class="footer_child">
+                <span><a href="https://www.aaaenos.com/en/summit-guest-post-or-ads/"> Advertisement</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- javascript  -->
+    <script src="javascript/js.js"></script>
+</body>
+
+</html>
